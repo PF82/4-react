@@ -30,9 +30,9 @@ Note: The text is considered a child of the div element, so you will not be able
 */
 
 const MyComponent = function () {
-    // Change code below this line
-
-
-
-    // Change code above this line
+  // Change code below this line
+  return (
+    <div>Stateless Functional Component</div>
+  );
+  // Change code above this line
 }
