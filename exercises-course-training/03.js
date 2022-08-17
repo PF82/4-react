@@ -11,9 +11,9 @@ The code editor has a JSX element similar to what you created in the last challe
 without modifying the existing h1 or p elements.
 */
 
-
 const JSX = (
     <div>
+        {/*Comments in JSX*/}
         <h1>This is a block of JSX</h1>
         <p>Here's a subtitle</p>
     </div>
