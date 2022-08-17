@@ -26,7 +26,7 @@ class ShoppingCart extends React.Component {
     }
     render() {
         { /* Change code below this line */ }
-        return <Items />
+        return <Items quantity = {10}/>
         { /* Change code above this line */ }
     }
 };
