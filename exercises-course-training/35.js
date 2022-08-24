@@ -22,7 +22,10 @@ class OnlyEvens extends React.Component {
     shouldComponentUpdate(nextProps, nextState) {
         console.log('Should I update?');
         // Change code below this line
-        return true;
+        if (nextProps.value % 2 == 0) {
+            return true;
+        }
+        return false;
         // Change code above this line
     }
     componentDidUpdate() {
