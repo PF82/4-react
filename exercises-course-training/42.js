@@ -30,7 +30,7 @@ class Results extends React.Component {
     }
     render() {
         {/* Change code below this line */ }
-        return <h1></h1>;
+        return <h1>{this.props.fiftyFifty ? "You Win!" : "You Lose!"}</h1>;
         {/* Change code above this line */ }
     }
 }
@@ -47,17 +47,17 @@ class GameOfChance extends React.Component {
         this.setState(prevState => {
             // Complete the return statement:
             return {
-                counter: prevState
+                counter: this.state.counter + 1
             }
         });
     }
     render() {
-        const expression = null; // Change this line
+        const expression = Math.random() >= 0.5 ? true : false // Change this line
         return (
             <div>
                 <button onClick={this.handleClick}>Play Again</button>
                 {/* Change code below this line */}
-
+                <Results fiftyFifty={expression} />
                 {/* Change code above this line */}
                 <p>{'Turn: ' + this.state.counter}</p>
             </div>
