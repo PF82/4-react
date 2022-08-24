@@ -34,4 +34,14 @@ challenge uses a div tag to wrap all the child elements within a single parent e
 Keep this in mind, since it will also apply when you return JSX elements in React components.
 */
 
+const JSX = <div>
+  <h1>Complex JSX Element</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam, numquam odit ipsum quod optio veniam fugiat ad eligendi laudantium? Voluptatum sapiente recusandae suscipit aspernatur nobis fuga a laboriosam saepe.</p>
+  <ul>
+    <li>Lorem1</li>
+    <li>Lorem2</li>
+    <li>Lorem3</li>
+  </ul>
+</div>
+
 

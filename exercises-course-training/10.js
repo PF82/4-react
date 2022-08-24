@@ -32,7 +32,7 @@ const Fruits = () => {
     return (
         <div>
             { /* Change code below this line */}
-
+            <TypesOfFruit />
             { /* Change code above this line */}
         </div>
     );
@@ -48,7 +48,7 @@ class TypesOfFood extends React.Component {
             <div>
                 <h1>Types of Food:</h1>
                 { /* Change code below this line */}
-
+                <Fruits />
                 { /* Change code above this line */}
             </div>
         );

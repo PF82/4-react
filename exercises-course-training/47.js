@@ -26,3 +26,4 @@ class App extends React.Component {
 };
 
   // Change code below this line
+  ReactDOMServer.renderToString(<App />);

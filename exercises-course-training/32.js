@@ -20,7 +20,7 @@ class MyComponent extends React.Component {
     }
     componentWillMount() {
         // Change code below this line
-
+        console.log("Hello")
         // Change code above this line
     }
     render() {
